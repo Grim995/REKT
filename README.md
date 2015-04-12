@@ -2,16 +2,19 @@ REKT was supposed to be a language from Hed0rizer but then turned out to be a br
 
 ##USAGE:
 	
-REKT -f file [-s size] [-b]
+REKT -f file [-s size] [-i file]
 
-	-f specifies an input file
-	-s specifies memory size in bytes, default is 1024
-	-b enables "brainfuck mode", which interpretates brainfuck
+	-f specifies a source file
+	-m specifies memory size in bytes, default is 1024
+	-i sets an input file
 
-Windows-only since I'm using retarded conio.h
+Not more Windows-only since I deleted conio.h!
 
-##TODO:
+##DONE
 
-	(?) add different "languages" support
 	(!) add out-of-memory tracking to prevent crashes
 	(!) make it not win-only
+	
+##TODO:
+
+	(?) add different "languages" support (useless)
